@@ -2,6 +2,6 @@
   "name": "nodejs-webrtc-video-stream",
   "description": "Nodejs WebRTC video stream with EasyRTC",
   "repository": "https://github.com/renanpupin/nodejs-webrtc-video-stream",
-  "logo": "",
+  "logo": "https://github.com/renanpupin/WebRTC_Logo.png",
   "keywords": ["webrtc", "nodejs", "video streaming"]
 }
