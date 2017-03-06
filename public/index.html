@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> <!--skip-->
+        <title>EasyRTC Demo:EasyRTC Demo: Video+Audio HD 720</title>
+        <link rel="stylesheet" type="text/css" href="/easyrtc/easyrtc.css" />
+
+        <!--hide-->
+        <link rel="stylesheet" type="text/css" href="css/landing.css" />
+        <link rel="stylesheet" type="text/css" href="css/demo_audio_video_simple_hd.css" />
+
+        <!-- Prettify Code -->
+        <script type="text/javascript" src="js/prettify/prettify.js"></script>
+        <script type="text/javascript" src="js/prettify/loadAndFilter.js"></script>
+        <script type="text/javascript" src="js/prettify/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="js/prettify/prettify.css" />
+
+        <!--show-->            <!-- Assumes global locations for socket.io.js and easyrtc.js -->
+        <script src="/socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="/easyrtc/easyrtc.js"></script>
+        <script type="text/javascript" src="js/demo_audio_video_simple_hd.js"></script>
+
+    </head>
+    <body  onload="connect();">
+        <!--hide-->
+
+        <div id="container">
+            <div id="header">
+                <!-- <a href="index.html"><img id="logo_easyrtc" src="images/easyrtc_logo.png" alt="EasyRTC" style="" /></a> -->
+            </div>
+            <div id="main">
+                <!-- Main Content -->
+                <!--show-->
+                <h1 class="center">nodejs-webrtc-video-stream</h1>
+                <p class="center">Quality HD 720P</p>
+                <hr>
+
+                <div id="demoContainer">
+                   <div id="connectControls">
+                        <div id="iam">Not yet connected...</div>
+                        <br />
+                        <strong>Connected users:</strong>
+                        <div id="otherClients"></div>
+                    </div>
+                    <div id="videos">
+
+                        <div style="position:relative;float:left;" width="1282" height="722">
+                            <video autoplay="autoplay" id="callerVideo"></video>
+                            <video  class="easyrtcMirror" autoplay="autoplay" id="selfVideo" muted="true" volume="0" ></video>
+                        </div>
+                        <!-- each caller video needs to be in it's own div so it's close button can be positioned correctly -->
+                    </div>
+                </div>
+                <!--hide-->
+                <br style="clear:both;" />
+                <hr />
+
+
+                <!-- End Main Content -->
+            </div>
+        </div>
+        <!--show-->
+    </body>
+</html>
