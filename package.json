@@ -1,0 +1,41 @@
+{
+  "name": "nodejs-webrtc-video-stream",
+  "version": "1.0.0",
+  "homepage": "https://mysterious-mesa-29296.herokuapp.com/",
+  "author": "Renan Pupin <renan.pupin@gmail.com>",
+  "description": "Nodejs WebRTC video stream with EasyRTC",
+  "contributors": [
+    "Renan Pupin <renan.pupin@gmail.com>"
+  ],
+  "keywords": [
+    "webRTC",
+    "nodejs webRTC",
+    "EasyRTC",
+    "RTC"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/renanpupin/nodejs-webrtc-video-stream.git"
+  },
+  "bugs": {
+    "url": "https://github.com/renanpupin/nodejs-webrtc-video-stream/issues"
+  },
+  "main": "server",
+  "dependencies": {
+    "express": "^4.10.7",
+    "serve-static": "^1.8.0",
+    "socket.io": "^1.4.5",
+    "async": "0.2.x",
+    "colors": "*",
+    "underscore": "1.5.x"
+  },
+  "analyze": false,
+  "license": "BSD-2-Clause",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "devDependencies": {
+    "fs": "0.0.2",
+    "requirejs": "^2.2.0"
+  }
+}
